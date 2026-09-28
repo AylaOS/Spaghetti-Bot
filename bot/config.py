@@ -1,0 +1,16 @@
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+DISCORD_TOKEN = os.environ["DISCORD_TOKEN"]
+RIOT_API_KEY = os.environ["RIOT_API_KEY"]
+PLATFORM = os.getenv("PLATFORM", "na1") #defaults to na1 platform
+REGION = os.getenv("REGION","americas") #defaults to americas
+REFRESH_MINUTES = os.getenv("REFRESH_MINUTES", "15") #defaults to every 15 mins
+
+PLAYERS=[
+    ("Ayla","BOT"), #<name>,<tag>
+    ("BedroomAthletics","V21")
+]
