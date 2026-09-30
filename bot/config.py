@@ -13,5 +13,13 @@ LEADERBOARD_CHANNEL_ID = os.environ["LEADERBOARD_CHANNEL_ID"]
 
 PLAYERS=[
     ("Ayla","BOT"), #<name>,<tag>
-    ("BedroomAthletics","V21")
+    #("BedroomAthletics","V21"),
+    ("FOOT DIVE","DOOM"),
+    ("SNAIL TRAIL", "SQRT"),
+    ("WawaSkittletit", "WEEWA"),
+    ("Open Book", "NA1"),
+    ("AXTER","NA1"),
+    ("ShacoGuy","NA99"),
+    ("noctivor","NA1"),
+    ("Sukuna","TAWG")
 ]
